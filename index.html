@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Image Gallery Project</title>
+  </head>
+  <body>
+    <main>
+      <h1>Image Gallery with Filters</h1>
+      <div class="filters">
+        <button data-filter="all">All</button>
+        <button data-filter="nature">Nature</button>
+        <button data-filter="animals">Animals</button>
+        <button data-filter="food">Food</button>
+      </div>
+      <div class="gallery-img">
+        <img
+          src="imagePro/food1.jpg"
+          data-category="food"
+          class="gallery-item"
+        />
+        <img
+          src="imagePro/img1.jpg"
+          data-category="animals"
+          class="gallery-item"
+        />
+        <img
+          src="imagePro/img2.jpg"
+          data-category="nature"
+          class="gallery-item"
+        />
+        <img
+          src="imagePro/img3.jpg"
+          data-category="food"
+          class="gallery-item"
+        />
+        <img
+          src="imagePro/img4.jpg"
+          data-categery="nature"
+          class="gallery-item"
+        />
+        <img
+          src="imagePro/img5.jpg"
+          data-category="animals"
+          class="gallery-item"
+        />
+        <img
+          src="imagePro/img6.jpg"
+          data-category="animals"
+          class="gallery-item"
+        />
+        <img
+          src="imagePro/img7.jpg"
+          data-category="animals"
+          class="gallery-item"
+        />
+        <img
+          src="imagePro/img8.jpg"
+          data-category="nature"
+          class="gallery-item"
+        />
+        <img
+          src="imagePro/img9.jpg"
+          data-category="animals"
+          class="gallery-item"
+        />
+        <img
+          src="imagePro/img10.jpg"
+          data-category="nature"
+          class="gallery-item"
+        />
+        <img
+          src="imagePro/img13.jpg"
+          data-category="nature"
+          class="gallery-item"
+        />
+
+        <img
+          src="imagePro/img14.jpg"
+          data-category="food"
+          class="gallery-item"
+        />
+        <img
+          src="imagePro/img15.jpg"
+          data-category="food"
+          class="gallery-item"
+        />
+        <img
+          src="imagePro/img16.jpg"
+          data-category="food"
+          class="gallery-item"
+        />
+        <img
+          src="imagePro/img17.jpg"
+          data-category="animals"
+          class="gallery-item"
+        />
+        <img
+          src="imagePro/img18.jpg"
+          data-category="animals"
+          class="gallery-item"
+        />
+        <img
+          src="imagePro/img1.jpg"
+          data-category="animal"
+          class="gallery-item"
+        />
+      </div>
+
+      <div class="light-box">
+        <span class="close-btn">&times;</span>
+        <img id="lightbox-img" />
+        <div class="controls">
+          <button class="prev">Prev</button>
+          <button class="next">Next</button>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
